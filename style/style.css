@@ -12,7 +12,7 @@
     color:#eee;
     cursor: pointer;
     text-decoration: none;
-    font-size:1.3em;
+    font-size:2.4vmin;
 }
 .anchor-btn.hover:hover{
     color:#14045c;
@@ -32,7 +32,7 @@ header img{
     align-items: center;
 }
 h1 {
-    font-size: 3em;
+    font-size: 5.5vmin;
 }
 /* index page hero section*/
 .hero{
@@ -50,7 +50,7 @@ h1 {
 }
 .hero .cta h3{
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 2.7vmin;
 }
 .hero img{
     width:35%;
@@ -76,12 +76,12 @@ h1 {
     width:100%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    font-size: 2.7vmin;
     flex-wrap: wrap;
 }
 /*add vertical gap between flex items*/
 .boxes > * {
-    margin:1em 0;
+    margin:3vmin 0;
 }
 .boxes .hover:hover{
     cursor: pointer;
@@ -96,7 +96,7 @@ h1 {
 .box-head{
     padding:15px 0;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 3vmin;
     font-weight: 700;
     color: #eee;
     background:#ff4d00;
@@ -106,7 +106,7 @@ h1 {
     border-bottom:1px solid #d0d0d0;
     padding:25px ;
     text-wrap: wrap; 
-    font-size: 1em;
+    font-size:2.4vmin;
 }
 .box-footer{
     text-align: center;
@@ -132,7 +132,7 @@ h1 {
     align-items: flex-end;
 }
 .typing-game h1{
-    font-size: 2em;
+    font-size: 5.5vmin;
     margin:3% 0;
 }
 .typing-game h3{
@@ -152,7 +152,7 @@ footer h1{
     margin:3% 0;
 }
 footer p{
-    font-size: 1.3em;
+    font-size: 3.4vmin;
     margin-bottom:2%;
 }
 footer .text-highlight{
@@ -163,7 +163,7 @@ footer .icons{
     text-align: center;
 }
 .icons p {
-    font-size: 1.5em;
+    font-size: 2.4vmin;
     margin-top:1.5%;
 }
 .icons .fa-brands{
@@ -171,7 +171,7 @@ footer .icons{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-    font-size: 2em;
+    font-size: 8vmin;
 }
 /* =================
 == ged page codes ==
@@ -183,17 +183,17 @@ footer .icons{
     margin:2% 0;
 }
 .hero .description p{
-    font-size: 1.3em;
-    line-height: 1.5em;
+    font-size: 2.8vmin;
+    line-height: 4vmin;
 }
 .services .box .box-body p {
     margin: 2.5% 0;
-    font-size: 1.2em;
+    font-size: 3.6vmin;
     text-indent: 2%;
     font-weight: 550;
 }
-.services .box .box-body ul li{
-    font-size: 0.95em;
+.services .box .box-body ul li{ /*GED Page Box List*/
+    font-size: 2.4vmin;
     text-indent: 5%;
     list-style: none;
     line-height: 2em;
@@ -220,7 +220,7 @@ footer .icons{
     text-decoration: none;
     color:#14045c;
     padding:10px 30px;
-    font-size: 1.2em;
+    font-size: 2.4vmin;
     display: block;
     cursor: pointer;
 }
@@ -248,6 +248,7 @@ footer .icons{
     list-style: none;
     display: flex;
     flex-direction: column;
+    font-size: 2.1vmin;
 }
 .ged-sub-main aside ul li a{
     padding:4% 7%;
@@ -275,10 +276,29 @@ footer .icons{
 .ged-sub-main article section {
     background:#f0f0f0;
     min-height: 250px;
+    max-height: 70vh;
     margin-bottom: 20px;
+    overflow: auto;
+    font-size: 2.1vmin;
 }
-.ged-sub-main h1{
-    font-size: 1.2em;
+::-webkit-scrollbar {
+    width:7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #c4c4c4; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #14045c;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2307a2; 
+  }
+.ged-sub-main h1{   /*Heading of the right column on subject main page*/
+    font-size: 2.7vmin;
     font-weight: 500;
     padding:1% 3%;
     background:#ff4d00;
@@ -288,6 +308,8 @@ footer .icons{
     padding:2% 3%;
     display: block;
     text-decoration: none;
+    border-bottom:1px solid;
+    border-color: #cececeae;
 }
 .ged-sub-main article a.hover:hover{
     background: #14045c;
@@ -307,6 +329,7 @@ footer .icons{
 }
 .exercise-main ul li {
     padding:5px;
+    font-size: 2.1vmin;
 }
 .exercise-main ul li a {
     text-decoration: none;
@@ -319,6 +342,7 @@ footer .icons{
     text-align: center;
     margin:1% 0;
 }
+/* Grammar Exercise Pages */
 .grammar{
     padding:0px 25px;
     background:#f0f0f0;
@@ -326,10 +350,10 @@ footer .icons{
     margin:1% 0 2% 0;
 }
 .grammar p {
-    font-size: 1.3em;
+    font-size: 2.4vmin;
 }
 .grammar h3 {
-    font-size: 1.6em;
+    font-size: 3.3vmin;
     margin:1% 0;
 }
 .line-space{
@@ -337,8 +361,8 @@ footer .icons{
 }
 .grammar select{
     outline: auto;
-    height:30px;
-    font-size:0.8em;
+    height:3.7vmin;
+    font-size:2vmin;
     margin:3px 0;
     padding:0px 5px;
 }
@@ -364,6 +388,182 @@ footer .icons{
 .grammar-explanation p {
     margin-bottom:15px;
 }
+/* Reading for Meaning Exercise Pages */
+.mcq-pages {
+    width:100%;
+    display: flex;
+    margin:0 auto 2% auto;
+    padding:1%;
+    background:#f0f0f0;
+}
+.hide{
+    display: none;
+}
+.invisible {
+    visibility: hidden;
+}
+.passage{
+    flex-basis: 50%;
+    padding:1%;
+}
+.passage h3 {
+    font-size: 3.7vmin;
+    margin-bottom: 2%;
+}
+.passage p{
+    font-size: 2.4vmin;
+    margin-bottom: 2%;
+    line-height: 3.3vmin;
+}
+.passage img{
+    width:100%;
+}
+.multiple-choice p{
+    font-size: 2.4vmin;
+}
+.multiple-choice{
+    flex-basis: 50%;
+    padding:1%;
+}
+.multiple-choice label{
+    display: block;
+    font-size: 2.2vmin;
+    padding:2%;
+    cursor: pointer;
+}
+.multiple-choice input[type=radio]{
+    margin-right:10px;
+    height:2vmin;
+}
+/*Although part of flex family, this one shows when other twos are hidden*/
+.feedback{
+    flex-basis: 100%;
+}
+
+.review-ans {
+    padding:20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.feedback .exp{ /*explanation section under feedback section*/
+    padding:10px 20px;
+    margin:20px 0;
+    border:1px solid rgb(241, 241, 241);
+    background:rgb(241, 241, 241);
+}
+.exp p{
+    margin-bottom: 10px;
+}
+.feedback{
+    margin:15px 0;
+    padding:5px 15px;
+    font-size: 2.4vmin;
+}
+.feedback.incorrectcorrect{
+    background-color: rgb(255, 48, 48);
+    color:#fff;
+}
+.feedback.correct{
+    background-color:rgb(0, 162, 0) ;
+    color:#fff;
+}
+.explanation{
+    color:#000;
+    font-size: 2.4vmin;
+}
+.final-result{
+    font-size: 36px;
+    text-align: center;
+    padding:10px 0;
+    width:100%;
+}
+.result-summary{
+    text-align: center;
+    padding:20px 0;
+}
+.result-summary h2{
+    font-size: 36px;
+}
+.answer-review h3{
+    text-align: center;
+}
+.review-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.review-item {
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.review-item .review-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.review-item .user-answer.correct {
+    color: green;
+}
+.review-item .user-answer.incorrect {
+    color: red;
+}
+.review-item .correct-answer {
+    color: #003a63;
+    font-weight: bold;
+}
+.review-item .explanation {
+    margin-top: 10px;
+    color: #333;
+    font-style: italic;
+}
+/* ==================================
+======== Extended Response Pages ====
+=====================================*/
+.er-box{
+    padding:1.5% 3%;
+    flex-basis: 75%;
+    margin:auto;
+    background:#f0f0f0;
+    margin:1.5% 0;
+}
+.heading {
+    padding:1.5% 0 0.5% 0;
+    font-size: 3.3vmin;
+}
+.author {
+    font-size: 2.7vmin;
+    padding:0 0 1.5% 0;
+}
+.forewords {
+    text-indent: 5%;
+    font-size: 2.7vmin;
+}
+.er-box .er-passage p, .er-box .instruction p {
+    padding:0.7% 0;
+    font-size: 2.4vmin;
+    line-height: 3.3vmin;
+}
+.er-passage ol{
+    list-style:circle;
+    padding:0.5% 2.5%;
+}
+.er-passage ol li  {
+    font-size: 2.4vmin;
+    padding:0.6% 0;
+}
+.sub-heading{
+    font-weight: 700;
+    font-size: 2.7vmin;
+    margin:1% 0; 
+}
+.instruction{
+    border-top:1px solid #e0e0e0;
+    margin-top:25px;
+    padding-top:25px;
+}
 .buttons{
     display: flex;
     justify-content: space-between;
@@ -378,7 +578,7 @@ footer .icons{
     background-color:#ff4d00;
     color:#fff;
     margin-bottom: 40px;
-    font-size: 1.1em;
+    font-size: 2.4vmin;
     padding:1.2%;
 }
 .btn.hover:hover{
@@ -392,12 +592,7 @@ footer .icons{
     text-align: center;
     display: block;
 }
-#btnNextPage {/*for RLA grammar - used via js*/
-    display: none;
-}
-#btnNext{ /*for RLA readings - used via js*/
-    visibility:hidden;
-}
-#btnGoBack{
-    display: none;
+#btnNext{ 
+    /*for RLA readings - used via js*/
+    visibility:visible;
 }
