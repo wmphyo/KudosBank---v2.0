@@ -1,4 +1,4 @@
-const ConclusionOneAnswers = [
+const conclusionOneAnswers = [
     ["B",
         [
             "<b> 1. Explanation:</b> The passage outlines both the positive and negative impacts of the industrial revolution. Option B accurately summarizes the dual nature of these impacts, making it the best conclusion."
@@ -26,8 +26,7 @@ const ConclusionOneAnswers = [
     ],
     
 ];
-
-const ConclusionTwoAnswers = [
+const conclusionTwoAnswers = [
     ["B",
         [
             "<b>1. Explanation:</b> The passage discusses both the transformative benefits and ethical concerns of artificial intelligence (AI). Option B accurately summarizes this dual nature, making it the best conclusion."
@@ -54,8 +53,7 @@ const ConclusionTwoAnswers = [
         ]
     ],
 ];
-
-const ConclusionThreeAnswers = [
+const conclusionThreeAnswers = [
     ["B",
         [
             "<b>1. Explanation:</b> The passage discusses the impact of the digital revolution, highlighting both the benefits and challenges it introduced. Option B accurately captures this balanced view, making it the best conclusion."
@@ -82,8 +80,7 @@ const ConclusionThreeAnswers = [
         ]
     ],
 ];
-
-const ConclusionFourAnswers = [
+const conclusionFourAnswers = [
     ["B",
         [
             "<b>1. Explanation:</b> The passage discusses the issue of climate change and the necessary policy measures and global cooperation needed to address it. Option B summarizes the essential elements, making it the best conclusion."
@@ -110,8 +107,7 @@ const ConclusionFourAnswers = [
         ]
     ],
 ];
-
-const ConclusionFiveAnswers = [
+const conclusionFiveAnswers = [
     ["A",
         [
             "<b>1. Explanation:</b> The passage discusses the impact of social media on communication, including both positive aspects like connectivity and negative aspects such as misinformation. Option A accurately reflects this balanced view, making it the best conclusion."
@@ -138,8 +134,7 @@ const ConclusionFiveAnswers = [
         ]
     ],
 ];
-
-const MainIdeaOneAnswers = [
+const mainIdeaOneAnswers = [
     ["C",
         [
             "<b> 1. Explanation:</b> The passage discusses various benefits of exercise, such as improved cardiovascular health, muscle strength, mental well-being, and prevention of chronic diseases. All these points support the overarching idea that exercise is crucial for maintaining overall health and well-being."
@@ -166,8 +161,7 @@ const MainIdeaOneAnswers = [
         ]
     ],
 ];
-
-const SummaryOneAnswers = [
+const summaryOneAnswers = [
     ["A",
         [
             "<b> 1. Explanation:</b> The passage explains that The Book Haven is valued for its rare books and quiet atmosphere, while The Literary Lounge is appreciated for its contemporary books and events, highlighting the differing preferences."
@@ -194,8 +188,7 @@ const SummaryOneAnswers = [
             "<b> 5. Explanation:</b> The passage highlights the major changes brought about by the Industrial Revolution, including technological advancements, new industries, and changes in living and working conditions. Option C accurately summarizes these key points."
         ]
     ],
-];
-
+]; 
 const summaryTwoAnswers = [
     ["A",
         [
@@ -223,7 +216,6 @@ const summaryTwoAnswers = [
         ]
     ],
 ];
-
 const summaryThreeAnswers = [
     ["A",
         [
@@ -251,7 +243,6 @@ const summaryThreeAnswers = [
         ]
     ],
 ];
-
 const summaryFourAnswers = [
     ["A",
         [
@@ -279,7 +270,6 @@ const summaryFourAnswers = [
         ]
     ],
 ];
-
 const summaryFiveAnswers = [
     ["A",
         [
@@ -307,7 +297,6 @@ const summaryFiveAnswers = [
         ]
     ]
 ];
-
 const themeOneAnswers = [
     ["C",
         [
@@ -336,7 +325,6 @@ const themeOneAnswers = [
     ],
     
 ];
-
 const themeTwoAnswers = [
     ["B",
         [
@@ -364,7 +352,6 @@ const themeTwoAnswers = [
         ]
     ],
 ];
-
 const themeThreeAnswers = [
     ["B",
         [
@@ -392,7 +379,6 @@ const themeThreeAnswers = [
         ]
     ],
 ];  
-
 const themeFourAnswers = [
     ["C",
         [
@@ -420,7 +406,6 @@ const themeFourAnswers = [
         ]
     ],
 ];
-
 const themeFiveAnswers = [
     ["B",
         [
@@ -448,9 +433,6 @@ const themeFiveAnswers = [
         ]
     ],
 ];
-
-
-
 const toneOneAnswers = [
     ["B",
         [
@@ -478,7 +460,6 @@ const toneOneAnswers = [
         ]
     ],
 ];
- 
 const toneTwoAnswers = [
     ["B",
         [
@@ -506,7 +487,6 @@ const toneTwoAnswers = [
         ]
     ],
 ];
-
 const toneThreeAnswers = [
     ["A",
         [
@@ -534,7 +514,6 @@ const toneThreeAnswers = [
         ]
     ],
 ];
-
 const toneFourAnswers = [
     ["B",
         [
@@ -562,8 +541,7 @@ const toneFourAnswers = [
         ]
     ],
 ];
-
-const ToneFiveAnswers = [
+const toneFiveAnswers = [
     ["A",
         [
             "<b>1. Explanation:</b> The passage describes ancient ruins standing silent and majestic against the backdrop of the setting sun. Words like 'whispered tales,' 'moss-covered stones,' and 'time seemed to stand still' evoke a sense of reverence and awe, emphasizing a reverent tone."
@@ -590,8 +568,6 @@ const ToneFiveAnswers = [
         ]
     ]
 ];
-
-
 const mainIdeaTwoAnswers = [
     ["C",
         [
@@ -619,7 +595,6 @@ const mainIdeaTwoAnswers = [
         ]
     ],
 ];
-
 const mainIdeaThreeAnswers = [
     ["D", 
         [
@@ -647,7 +622,6 @@ const mainIdeaThreeAnswers = [
         ]
     ],
 ];
-
 const mainIdeaFourAnswers = [
     ["C", 
         [
@@ -675,7 +649,6 @@ const mainIdeaFourAnswers = [
         ]
     ],
 ];
-
 const mainIdeaFiveAnswers = [
     ["B", 
         [
@@ -830,18 +803,18 @@ function checkAnswer(){
 function pageCheck(){
 
     if(window.location.href.includes('conclusion-practice-1')){
-        correctAnsArr = ConclusionOneAnswers;
+        correctAnsArr = conclusionOneAnswers;
     } else if (window.location.href.includes('conclusion-practice-2')){
-        correctAnsArr = ConclusionTwoAnswers;
+        correctAnsArr = conclusionTwoAnswers;
     } else if (window.location.href.includes('conclusion-practice-3')){
-        correctAnsArr = ConclusionThreeAnswers;
+        correctAnsArr = conclusionThreeAnswers;
     } else if (window.location.href.includes('conclusion-practice-4')){
-        correctAnsArr = ConclusionFourAnswers;
+        correctAnsArr = conclusionFourAnswers;
     } else if (window.location.href.includes('conclusion-practice-5')){
-        correctAnsArr = ConclusionFiveAnswers;    
+        correctAnsArr = conclusionFiveAnswers;    
 
     } else if (window.location.href.includes('main-idea-practice-1')){
-        correctAnsArr = MainIdeaOneAnswers;
+        correctAnsArr = mainIdeaOneAnswers;
     } else if (window.location.href.includes('main-idea-practice-2')){
         correctAnsArr = mainIdeaTwoAnswers;
     } else if (window.location.href.includes('main-idea-practice-3')){
@@ -852,7 +825,7 @@ function pageCheck(){
         correctAnsArr = mainIdeaFiveAnswers;
 
     } else if (window.location.href.includes('summary-practice-1')){
-        correctAnsArr = SummaryOneAnswers;
+        correctAnsArr = summaryOneAnswers;
     } else if (window.location.href.includes('summary-practice-2')){
         correctAnsArr = summaryTwoAnswers; 
     } else if (window.location.href.includes('summary-practice-3')){
