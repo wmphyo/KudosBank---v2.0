@@ -563,6 +563,40 @@ footer .icons{
     margin-top:25px;
     padding-top:25px;
 }
+/* ===============================================
+== Codes for One Page Exercise Pages (Math etc) ==
+================================================== */
+/* .math-mcq-pages {
+    width:100%;
+    display: flex;
+    margin:0 auto 2% auto;
+    padding:1%;
+    background:#f0f0f0;
+} */
+.math-multiple-choice p{
+    font-size: 2.4vmin;
+}
+.math-multiple-choice{
+    flex-basis: 100%;
+    padding:1%;
+}
+.math-multiple-choice label{
+    display: block;
+    font-size: 2.2vmin;
+    padding:1.5%;
+    cursor: pointer;
+}
+.math-multiple-choice input[type=radio]{
+    margin-right:10px;
+    height:2vmin;
+}
+.math-multiple-choice img{
+    margin:2% 0;
+    width:35%;
+}
+/* ===============================================
+====== Codes for Buttons across all exercises ====
+================================================== */
 .buttons{
     display: flex;
     justify-content: space-between;

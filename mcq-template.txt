@@ -39,7 +39,7 @@
 
     <main class="exercise-main">
         <ul>
-            <li><a href="../../../ged.html" class="hover">GED</a> - </li>
+            <li><a href="../../../ged.html" class="hover">GED</a> -</li>
             <li><a href="../evidence-and-argument.html" class="hover">Social Studies: Analyzing Historical Evidence</a> - </li>
             <li><a>Exercise 1</a></li>
         </ul>
