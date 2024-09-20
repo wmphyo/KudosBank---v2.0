@@ -416,6 +416,14 @@ footer .icons{
 }
 .passage img{
     width:100%;
+    margin:2% 0;
+}
+.passage ol{
+    padding-left: 7%;
+    font-size: 2.2vmin;
+}
+.passage ol li{
+    padding:1.5% 0;
 }
 .multiple-choice p{
     font-size: 2.4vmin;
