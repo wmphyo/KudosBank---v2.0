@@ -427,6 +427,7 @@ footer .icons{
 }
 .multiple-choice p{
     font-size: 2.4vmin;
+    margin-bottom:1.5%;
 }
 .multiple-choice{
     flex-basis: 50%;

@@ -25,7 +25,6 @@ const claimsEvidencePracOneAnswers = [
         ]
     ],
 ];
-
 const claimsEvidencePracTwoAnswers = [
     ["D",
         [
@@ -53,7 +52,6 @@ const claimsEvidencePracTwoAnswers = [
         ]
     ],
 ];
-
 const claimsEvidencePracThreeAnswers = [
     ["D",
         [
@@ -81,7 +79,6 @@ const claimsEvidencePracThreeAnswers = [
         ]
     ],
 ];
-
 const conclusionPracOneAnswers = [
     
     ["B",
@@ -109,16 +106,13 @@ const conclusionPracOneAnswers = [
             "<b>5. Explanation:</b> Some combinations of bacteria may actually help ward off acne. This question asks for the researchers’ conclusion—that is, the idea they embraced after concluding their study. That idea is described by choice (D). Choice (A) is an assumption many people held before the research began. Choice (B) is not supported by the passage. Choice (C) is not supported by the passage: after drawing their conclusions, the researchers suggested a way to treat acne in the future, but they did not suggest that current treatments are misguided."
         ]
     ]
-];
-
+]
 const conclusionPracTwoAnswers = [
 
 ];
-
 const conclusionPracThreeAnswers = [
 
 ];
-
 const hypothesesPracOneAnswers = [
     ["A",
         [
@@ -146,15 +140,12 @@ const hypothesesPracOneAnswers = [
         ]
     ],
 ];
-
 const hypothesesPracTwoAnswers = [
 
 ];
-
 const hypothesesPracThreeAnswers = [
     
 ];
-
 const reliabilityPracOneAnswers = [
     ['D', 
         [
@@ -182,7 +173,6 @@ const reliabilityPracOneAnswers = [
         ]
     ],
 ];
-
 const reliabilityPracTwoAnswers = [
     ['C', 
         [
@@ -210,7 +200,6 @@ const reliabilityPracTwoAnswers = [
         ]
     ],
 ];
-
 const reliabilityPracThreeAnswers = [
 
     ['D', 
@@ -240,7 +229,6 @@ const reliabilityPracThreeAnswers = [
     ],
 
 ];
-
 const variablePracOneAnswers = [
     ["C ",
         [
@@ -268,9 +256,8 @@ const variablePracOneAnswers = [
         ]
     ],
 ];
-
 const variablePracTwoAnswers = [
-    ["C ",
+    ["C",
         [
             "<b>1. Explanation:</b> An independent variable is a variable that is changed, controlled, or manipulated by the researcher in an experiment to create two or more comparison groups. A dependent variable is a variable that changes in response to the independent variable(s) in an experiment. In this experiment, whether or not the dogs remembered to “speak” one week later was found to be dependent on whether or not the dogs were given kibble for performing the “speak” trick. "
         ]
@@ -299,6 +286,178 @@ const variablePracTwoAnswers = [
 
 const variablePracThreeAnswers = [
 
+];
+
+const numberAndGraphPracOneAnswers = [
+    ["B",
+        [
+            "<b>1. Explanation:</b> The 10,000 mM point on the x-axis represents the dose at which the intensity falls below 20, which the question stem indicates is acceptable."]
+    ],
+    ["A",
+        [
+            "<b>2. Explanation:</b> This is a difficult question because you have to use the graph and then interpret your findings. Start by finding the first point (–70°C and 70 bar). This corresponds to solid carbon dioxide. If this solid CO2 is heated and kept at the same pressure, it will become a liquid. A solid to-liquid phase transition is melting, so (A) is correct. Freezing is the opposite process, so eliminate (B). Boiling and condensing are processes that describe the phase transition that takes place between liquids and gases, so eliminate (C) and (D)."]
+    ],
+    ["B",
+        [
+            "<b>3. Explanation:</b> According to the chart, the distance between the shoreline and the lighthouse decreases by 75 meters every 10 years. In 1990, the distance between the shore and the lighthouse is 100 meters, so by 2000 the distance between the lighthouse and the shore should be 100 meters – 75 meters = 25 meters. Thus, the correct answer is (B)."]
+    ],
+    ["D",
+        [
+            "<b>4. Explanation:</b> You can see from the graph that the bacteria population started small, then increased rapidly, and then became constant. Hence, Choice (D) is correct. You can reject Choice (A) because the curve shows that the population did not grow at a constant rate. You can reject Choice (B) because the population did not grow exponentially. You can reject Choice (C) because the population was not zero at the beginning."]
+    ],
+    ["D",
+        [
+            "<b>5. Explanation:</b> Looking at the graph, students who exercise around 3 hours per week seem to have resting heart rates between 68 – 72 bpm."
+        ]
+    ]
+];
+
+const numberAndGraphPrachTwoAnswers = [
+    ["C",
+        [
+            "<b>1. Explanation:</b> Look at the solubility curve for sugar. Find the point on the sugar curve that corresponds to 50’C. At 50°C, approximately 250 g of sugar can dissolve in 100 mL of water."
+        ]
+    ],
+    ["B",
+        [
+            "<b>2. Explanation:</b> When comparing the data for the years 2012 and 2014, notice that there were about 50 cases reported in 2012 and about 675 cases reported in 2014. This represents an increase of about 600 cases."
+        ]
+    ],
+    ["C",
+        [
+            "<b>3. Explanation:</b> According to the graph, the temperature increases, then remains constant while the sample melts, then increases, then stays constant while the sample boils, and then increases. Since this is the scenario that (C) describes, the correct answer is (C). Note that a horizontal line means that the variable on the y-axis, in this case, temperature, is not changing."
+        ]
+    ],
+    ["C",
+        [
+            "<b>4. Explanation:</b> The area labeled C represents the sample at the point when it is between melting and boiling. Such a sample would be liquid, so if you selected a point near C, then you selected the correct region of the graph. Before the sample melted, it would be entirely solid, so the region of the graph near A would not represent a time during which the sample would be liquid. During melting, some of the sample would be solid and some of the sample would be liquid, so the region of the graph near B would not represent a time during which the sample would be liquid. During boiling, some of the sample would be liquid and some of the sample would be gas, so the region of the graph near D would not represent a time during which the sample would be liquid. After boiling, the sample would be entirely gas, so the region of the graph near E would also not represent a time during which the sample would be liquid."
+        ]
+    ],
+    ["B",
+        [
+            "<b>5. Explanation:</b> Plot B Plot B shows a strong positive correlation between the variables because the data points are close to the line (strong correlation) and the line is sloping upward, indicating a positive correlation."
+        ]
+    ]
+];
+
+const numberAndGraphPracThreeAnswers = [
+    ["A",
+        [
+            "<b>1. Explanation:</b> Explanation - The sprinter increased their velocity for the first four seconds of the race, then maintained the same velocity for an additional three seconds, followed by a three-second period of negative velocity or deceleration. Acceleration only occurred for four seconds, which is not the majority of the duration of the chart. ",
+            "Deceleration occurred one second faster than acceleration, and there was no net positive velocity gains in the middle of the race – just the maintenance of existing velocity.",
+            "So, correct answer is A."
+        ]
+    ],
+    ["A",
+        [
+            "<b>2. Explanation:</b> Explanation - The boiling point for H2O is 100 C, while the one for CH4 is approximately -160 C, indicating a nearly 260-degree difference. The differences between HF & H2O, CH4 & SnH4, and PH3 & HCl are all significantly lower than that. So, correct answer is A."
+        ]
+    ],
+    ["B",
+        [
+            "<b>3. Explanation:</b> All of the organisms evolved from an ancestor that had a vertebrate, not an amniotic egg. Amniotic eggs are not the reproductive method used for frogs, tuna, or sharks. Humans and hares are more similar than humans and sharks because they both evolved to have a bony skeleton, four limbs, amniotic eggs, and hair.",
+            "Parrots and caiman are similar as they both evolved to have two skull openings in addition to a bony skeleton, four limbs, and amniotic eggs.",
+            "So, the correct answer is B."
+        ]
+    ],
+    ["C",
+        [
+            "<b>4. Explanation:</b> You can see from the graph that the reactants have more potential energy than the products, making Choice (C) the correct answer; Choice (D) is therefore wrong. The graph makes no mention of kinetic energy, so you can reject Choice (A). The amount of potential energy rises (not drops) midway through the reaction, making Choice (B) incorrect."
+        ]
+    ],
+    ["C",
+        [
+            "<b>5. Explanation:</b> Although heart disease is still the leading cause of death, the number of deaths due to cancer has increased steadily since 1950. Although the curve that represents deaths via cancer has risen sharply since 1950, it’s still below the curve that represents deaths via heart disease; therefore, Choice (A) is wrong and (C) is correct. You can reject Choice (B) because the deaths due to heart disease have risen only slightly since 1950. Choice (D) is also wrong because deaths via cancer have tripled since 1950."
+        ]
+    ]
+];
+
+const calculationPracOneAnswers = [
+    ["D",
+        [
+            "<b>1. Explanation:</b> The archaeologist wants to choose four of the eleven fossils to study. Since the order in which he studies the fossils does not matter, this is a combination problem: Cn,r=n!r!(n−r)!"
+        ]
+    ],
+    ["B",
+        [
+            "<b>2. Explanation:</b> To calculate the molarity of the solution, use the given equation. There are 3.00 mol NaCl that are dissolved in water to make 2.00 L of solution. molarity=3.00 moles of NaCl2.00 liters of solution The concentration of the final solution is 1.50 M"
+        ]
+    ],
+    ["B",
+        [
+            "<b>3. Explanation:</b> The passage states that every 5,270 years, the amount of carbon-14 is cut in half. The half-life of carbon-14 is 5,730 years. That means that half of the mass converts in 5,730 years."
+        ]
+    ],
+    ["D",
+        [
+            "<b>4. Explanation:</b>",
+            "G=rN",
+            "N = 400, r = 0.25. So, G = 0.25 x 400 = 100",
+            "So, in this example, the population of pelicans would be expected to increase by 100 pelicans per year under ideal conditions. Therefore, after one year, the population of pelicans on the island would be expected to be 500 pelicans. This number includes the original 400 pelicans plus the additional 100 pelicans added to the population during the year."
+        ]
+    ],
+    ["C",
+        [
+            "<b>5. Explanation:</b> Strong solutions have a lumen value over 500. Only 2 solutions, NaOH and HCl, have a brightness of more than 500 lumens. The numerator is the total number of strong solutions. The denominator is the total number of available solutions provided in the table."
+        ]
+    ]
+];
+
+const calculationPracTwoAnswers = [
+    ["C",
+        [
+            "<b>1. Explanation:</b> There were 3 people out of 100 measles patients who had received two doses of vaccine, so in 3% of the sample population the vaccine did not prevent the disease. If the sample is representative, then for the other 97% of the population, two doses would be effective."
+        ]
+    ],
+    ["B",
+        [
+            "<b>2. Explanation:</b> Dark fur can be produced by the allele combinations FF or Ff. Red eyes can only be produced by the allele combination ee. This means that a guinea pig with dark fur and red eyes can only be produced in two ways: FF with ee, or Ff with ee."
+        ]
+    ],
+    ["B",
+        [
+            "<b>3. Explanation:</b> The chance that an earthquake might occur that has the severity to cause the deaths of over 1000 people is 0.001, or 0.1%."
+        ]
+    ],
+    ["A",
+        [
+            "<b>4. Explanation:</b> Half of the offspring (rr) possess only the genes for wrinkled peas, and will therefore produce wrinkled peas. The offspring in the other half of the square (Rr) possess one gene for wrinkled peas and one for round peas. Since the round gene is dominant over the wrinkled gene, these offspring will produce round peas. Thus, (A) is correct."
+        ]
+    ],
+    ["C",
+        [
+            "<b>5. Explanation: </b> This is a combinations question: you are asked for all possible groupings of two out of the six snails, and the order of snails within each group does not matter. Use a table or an organized list to find the number of possible groupings. Name the snails A–F if that makes it easier."
+        ]
+    ]
+];
+
+const calculationPracThreeAnswers = [
+    ["B",
+        [
+            "<b>1. Explanation:</b> To find out how much ammonia the comet contained, we can use the information given in the question. According to Hypothesis 2, up to 1% of the object's mass might have been ammonia. The mass of the object that caused the Tunguska Event is given as 5 x 10^7 kg.",
+            "To calculate the amount of ammonia, we can multiply the mass of the object by 1% (or 0.01): 5 x 10^7 kg * 0.01 = 5 × 10^5 kg"
+        ]
+    ],
+    ["D",
+        [
+            "<b>2. Explanation:</b> The question states that one plant is homozygous dominant for all three characters, meaning, that for each character, it has two dominant alleles. The genotype of this plant can be written as AABBCC. The other parent is heterozygous for flower color, meaning it has one dominant and one recessive allele, this genotype can be written as Aa. When an AA plant is crossed with an Aa plant there are two possible genotype outcomes, AA and Aa. Since the offspring will always receive at least one dominant allele none of the offspring would be expected to express the recessive flower color."
+        ]
+    ],
+    ["A",
+        [
+            "<b>3. Explanation:</b> You need to understand how a Punnett Square works in order to answer this question. You must cross each column with each row in order to find the possibilities; e.g., the first column, which has the allele P, is crossed with the first row, which also has the allele P, to give us the gene PP. Since, capital letter “P” contains in 3 squares out of 4, it is ¾ x 100 = 75%. Thus, the answer is (A)."
+        ]
+    ],
+    ["D",
+        [
+            "<b>4. Explanation:</b> Because Sirius is 8.6 light-years away from Earth, the light from the star takes 8.6 years to reach the Earth."
+        ]
+    ],
+    ["C",
+        [
+            "<b>5. Explanation:</b> 1 L of bleach = 1100g, 7.25% of mass is NaClO. 7.25/ 100 = 0.0725 * 1100 = 79.25g is NaClO in 1 L of bleach. Since 1 mol is equal to 74.44 g, 79.25 g is 79.25/ 74.44 which is equal to 1.07 mol/L."
+        ]
+    ]
 ];
 
 const passageSection = document.querySelector('.mcq-pages');
@@ -455,10 +614,19 @@ function pageCheck(){
     } else if (window.location.href.includes('variable-and-group-2')){
         correctAnsArr = variablePracTwoAnswers;
 
-    } else {
-        correctAnsArr = practiceTestFiveAnswers;
+    } else if (window.location.href.includes('graph-practice-1')) {
+        correctAnsArr = numberAndGraphPracOneAnswers;
+    } else if (window.location.href.includes('graph-practice-2')) {
+        correctAnsArr = numberAndGraphPrachTwoAnswers;
+    } else if (window.location.href.includes('graph-practice-3')) {
+        correctAnsArr = numberAndGraphPracThreeAnswers;
+    } else if (window.location.href.includes('calculation-practice-1')) {
+        correctAnsArr = calculationPracOneAnswers;
+    } else if (window.location.href.includes('calculation-practice-2')) {
+        correctAnsArr = calculationPracTwoAnswers;
+    } else if (window.location.href.includes('calculation-practice-3')) {
+        correctAnsArr = calculationPracThreeAnswers;
     }
-    console.log('Page URL is checked!');
 }
 
 
