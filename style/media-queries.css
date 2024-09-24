@@ -1,5 +1,59 @@
 @media (max-width:700px){
     .hero {
+        flex-direction: column-reverse;
+    }
+    .hero .cta, .typing-game .cta {
+        margin:10% 0%;
+        width:100%;
+    }
+    .hero img, .typing-game img {
+        width:100% !important ; /*To override regular .hero img*/
+    }
+    .hero .description {
+        margin:2% 0 7% 0;
+    }
+    .services .boxes .box {
+        flex-basis: 100%;
+    }
+    .typing-game {
+        flex-direction: column;
+    }
+    .typing-game .cta h1{
+        font-size: 4.5vmin;
+        margin:5% 0;
+    }
+    footer p{
+        margin-bottom:5% !important;
+    }
+    /*GED Subject Page codes*/
+    .ged-sub-nav ul li {
+        flex-basis: 25%;
+    }
+    .ged-sub-nav li a {
+        font-size: 1.4vmin;
+        padding:10% !important;
+        text-align: center;
+    }
+    .ged-sub-main {
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+    .ged-sub-main aside {
+        margin-bottom:5%;
+    }
+    .ged-sub-main aside ul {
+        flex-direction: row !important;
+    }
+    .ged-sub-main aside ul li {
+        flex-basis: 25%;
+        font-size: 1.6vmin;
+        text-align: center;
+        align-content: center;
+    }
+    .ged-sub-main h1 {
+        font-size: 2.2vmin !important;
+    }
+    .mcq-pages {
         flex-direction: column;
     }
 }
