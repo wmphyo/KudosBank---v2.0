@@ -74,7 +74,7 @@ function checkAnswer() {
         }
         answer.disabled = true;
         //hide checkAns btn and show goBack btn to RLA page
-        document.getElementById('btnGoBack').style.display = 'block';
+        document.getElementById('btnGoBack').classList.remove('invisible');
         if(practiceNum!==6){ //don't display next btn for last page
             document.getElementById('btnNextPage').style.display = 'block';
         }

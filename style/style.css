@@ -354,6 +354,8 @@ footer .icons{
     background:#f0f0f0;
     padding:1.5% 3%;
     margin:1% 0 2% 0;
+    width:80%;
+    margin:auto;
 }
 .grammar p {
     font-size: 2.4vmin;
@@ -415,7 +417,7 @@ footer .icons{
     padding:1%;
 }
 .passage h3 {
-    font-size: 3.7vmin;
+    font-size: 3.3vmin;
     margin-bottom: 2%;
 }
 .passage p{
