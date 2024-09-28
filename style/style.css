@@ -22,12 +22,11 @@
 header{
     width:100%;
     background:#ff4d00;
-    padding:0.5% 10%;
+    padding:0% 10%;
     display: flex;
 }
 header img{
     width:160px;
-    border-radius: 15px;
     display: flex;
     align-items: center;
 }
@@ -144,8 +143,7 @@ h1 {
 /* index page footer section */
 footer{
     width:80%;
-    padding:0 25px;
-    margin:auto;
+    margin:5% auto;
 }
 footer h1{
     text-align: center;
@@ -202,7 +200,7 @@ footer .icons{
 ======= ged subject page codes ======
 ===================================== */
 .active-page{
-    background:hsl(18, 100%, 50%);
+    background:#ff4d00;
     color:#eee;
 }
 .ged-sub-nav {
@@ -255,6 +253,7 @@ footer .icons{
     display: block;
     text-decoration: none;
     cursor: pointer;
+    font-size: 2.1vmin;
 }
 .ged-sub-main aside ul li {
     background:#f0f0f0;
@@ -271,12 +270,12 @@ footer .icons{
     cursor: pointer;
 }
 .ged-sub-main article{
-    flex-basis: 75%;
+    flex-basis: 50%;
 }
 .ged-sub-main article section {
     background:#f0f0f0;
-    max-height: 70vh;
-    margin-bottom: 20px;
+    max-height: 50vh;
+    margin-bottom: 3%;
     overflow: auto;
     font-size: 2.1vmin;
 }
@@ -318,28 +317,36 @@ footer .icons{
 /* ==================================
 ======= ged exercise page codes ======
 ===================================== */
-.exercise-main{
+.location-nav {
     width:80%;
-    margin:2% auto;
+    margin:3% auto;
 }
-.exercise-main ul {
+.location-nav ul {
     list-style: none;
     display: flex;
 }
-.exercise-main ul li {
+.location-nav ul li {
     padding:5px;
     font-size: 2.1vmin;
 }
-.exercise-main ul li a {
+.location-nav ul li a {
     text-decoration: none;
+}
+.location-nav h1 {
+    text-align: center;
+    margin:1% 0;
+}
+.exercise-main{
+    width:100%;
+    margin:2% auto;
+    display: flex;
+}
+.exercise-main aside {
+    flex-basis: 22%;
 }
 .exercise-main ul li a.hover:hover {
     cursor: pointer;
     text-decoration: underline;
-}
-.exercise-main h1 {
-    text-align: center;
-    margin:1% 0;
 }
 /* Grammar Exercise Pages */
 .grammar{
@@ -390,6 +397,8 @@ footer .icons{
 /* Reading for Meaning Exercise Pages */
 .mcq-pages {
     width:100%;
+    min-height: 70vh;
+    flex-basis: 90%;
     display: flex;
     margin:0 auto 2% auto;
     padding:1%;
@@ -609,7 +618,7 @@ footer .icons{
 .buttons{
     display: flex;
     justify-content: space-between;
-    width:100%;
+    width:65%;
     margin: auto;
 }
 .btn {
