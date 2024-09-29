@@ -79,8 +79,7 @@ const claimsEvidencePracThreeAnswers = [
         ]
     ],
 ];
-const conclusionPracOneAnswers = [
-    
+const conclusionPracOneAnswers = [   
     ["B",
         [
             "<b>1. Explanation:</b> In both experiments, one dose of vaccine proved a high degree of protection and in both experiments two doses provided even more protection."
@@ -108,10 +107,59 @@ const conclusionPracOneAnswers = [
     ]
 ]
 const conclusionPracTwoAnswers = [
-
+    ["B",
+        [
+            "<b>1. Explanation:</b> D’Andre wants to compare handwashing habits across departments. To accurately do this, he needs to survey employees from each department. However, he does not have to survey every single employee. Surveying 100 employees in each department will provide him with adequate data to make a prediction about the overall population.",
+            "D’Andre wants to compare handwashing habits across departments. To accurately do this, he needs to survey employees from each department. However, he does not have to survey every single employee. Surveying 100 employees in each department will provide him with adequate data to make a prediction about the overall population."
+        ]
+    ],
+    ["D",
+        [
+            "<b>2. Explanation:</b> Though the method results show higher antibodies level in the experimental group, we can not be very sure that this method will be more effective than other traditional methods since this is tested by using only one vaccine type. We can only say that this will be “at least” effective as the other vaccination method. The temperatures variable is not given in the passage. So, we can only say that this method can be effective against COVID-19 vaccine."
+        ]
+    ],
+    ["C",
+        [
+            "<b>3. Explanation:</b> ZIOS removes more percent of ions than ZIF-8 as seen in both graphs except for iron in acidic water. ZIOS can reduce copper level to less than 1.5 ppm in the same time interval as ZIF which is way faster than ZIF."
+        ]
+    ],
+    ["D",
+        [
+            "<b>4. Explanation:</b> Since wind can carry away the heat from the skin, the skin has to be covered to reduce the effect of wind. So, answer D is correct."
+        ]
+    ],
+    ["B",
+        [
+            "<b>5. Explanation:</b> Correct answer is B. The two groups of scientists are looking at different specific aspects of the same scientific problem. One group is focusing on the environmental benefits of tidal power, while the other is considering the potential ecological harm. Both perspectives are valid and important in the comprehensive evaluation of tidal power as n alternative energy source."
+        ]
+    ]
 ];
 const conclusionPracThreeAnswers = [
-
+    ["D",
+        [
+            "<b>1. Explanation:</b> The table outlines a restoration process that, although lengthy, allows for the replenishment of peat within human lifetimes, contradicting the definition of a fossil fuel. This makes peat a renewable resource, not a fossil fuel."
+        ]
+    ],
+    ["B",
+        [
+            "<b>2. Explanation:</b> They are isotopes. The last sentence of the first paragraph of the passage states that isotopes have the same atomic number. The second sentence of the second paragraph tells you that isotopes have different mass numbers. This question requires using two bits of information from two different locations in the passage to decide on the right answer."
+        ]
+    ],
+    ["C",
+        [
+            "<b>3. Explanation:</b> According to the table, as the distance of light source from plant increases from 5 to 60, the number of bubbles produced in 5 minutes decreases from 74 to 0."
+        ]
+    ],
+    ["B",
+        [
+            "<b>4. Explanation:</b> The raw data sets between 100 and 600 meters below the surface is all between 6 and 12 particles per cubic meter. The data from shallower and deeper depths is all around 6 particles per cubic meter or less. So, correct answer is B."
+        ]
+    ],
+    ["B",
+        [
+            "<b>5. Explanation:</b> Since the height of plants grown inside the greenhouses are almost twice as much as that of the plants grown outside, the plants should be grown inside."
+        ]
+    ]
 ];
 const hypothesesPracOneAnswers = [
     ["A",
@@ -141,10 +189,61 @@ const hypothesesPracOneAnswers = [
     ],
 ];
 const hypothesesPracTwoAnswers = [
-
+    ["A",
+        [
+            "<b>1. Explanation:</b> She wants to know the effect of stirring and she had noticed that shaking the cup made the tablet dissolved faster."
+        ]
+    ],
+    ["D",
+        [
+            "<b>2. Explanation:</b> According to the passage, the first group of researchers hypothesized that during drought years, there would be a decrease in vegetation and an increase in natural fires. This would logically lead to elevated levels of microscopic charcoal (due to increased fires) and reduced concentrations of pollen from wetland plants (due to decreased vegetation). This hypothesis aligns exactly with answer choice, which states an increase in microscopic charcoal and a decrease in pollen from wetland plants."
+        ]
+    ],
+    ["B",
+        [
+            "<b>3. Explanation:</b> The correct answer is option (b). The second group of researchers hypothesized that a decrease in rainfall leads to diminished vegetative cover, which in turn increases erosion. This hypothesis implies that drought-like conditions result in larger sediment deposits in the cores. To effectively test this hypothesis, it is crucial to compare sediment quantities from periods suspected to be droughts with those from periods that were likely non-droughts. By measuring the quantities of sediments in cores from the delta during a non-drought period, researchers can establish a baseline for normal sediment deposition rates, which can then be compared to the elevated rates observed during drought periods. This comparison is essential to validate their hypothesis about the impact of reduced rainfall on erosion and sediment deposition."
+        ]
+    ],
+    ["C",
+        [
+            "<b>4. Explanation:</b> Correct Answer is C. genetic code. The passage states, “These characteristics, passed from one generation to the next, exist because of genetic code.” Thus, the best answer is genetic code."
+        ]
+    ],
+    ["D",
+        [
+            "<b>5. Explanation:</b> The weakness of the investigation lies in the fact that several hypotheses presented lack concrete evidence and rely on unproven processes or estimated values. Hypotheses 1, 2, and 4 propose mechanisms for the formation of ammonia, but they are not supported by direct evidence from the ice core samples.",
+            "Hypothesis 3 suggests a general idea about high heat, but it doesn't provide specific details on how ammonia was formed. Additionally, the estimated values presented in Hypotheses 1 and 2 are based on assumptions and not direct measurements.",
+            "Therefore, the lack of solid empirical data and reliance on speculative processes or estimates weaken the credibility of the hypotheses presented in the passage."
+        ]
+    ]
 ];
 const hypothesesPracThreeAnswers = [
-    
+    ["D",
+        [
+            "<b>1. Explanation:</b> As the passage indicates, gravitational pull grows stronger as you become closer to an object, meaning that if you move away from it, gravitational pull would become weaker.",
+            "Weight is determined by Earth’s gravitational pull on an object, also meaning that as the gravitational pull becomes weaker, weight decreases."
+        ]
+    ],
+    ["D",
+        [
+            "<b>2. Explanation:</b> Since there is only a narrow spectrum of wavelengths titled as visible light among many wavelengths, the statement “there are lots of wavelengths that cannot be seen by human eyes” is supported."
+        ]
+    ],
+    ["C",
+        [
+            "<b>3. Explanation:</b> According to the passage, igneous rocks either form below ground from magma or above ground from volcano lava. Metamorphic, rather than igneous, rock forms when rock undergoes profound chemical changes, so (A) is incorrect. Igneous rocks can form underground, but the passage does not discuss whether they can form under water. Instead, the passage mentions that sedimentary rock can form under water. Therefore, (B) is incorrect. Choice (C) indicates that the rock was found near a volcano, and since the passage indicates that igneous rocks can form from volcano lava, (C) supports the student’s hypothesis, and is the correct answer. The passage indicates that sedimentary rock, rather than igneous rock forms from minerals, so (D) is also incorrect."
+        ]
+    ],
+    ["C",
+        [
+            "<b>4. Explanation:</b> Choice (C) is the correct answer because the contrast of the black fur against the white environment would not be an advantage to the fox; it would make it harder for the fox to catch its prey or avoid being captured by a predator. Therefore, you can eliminate Choices (B) and (D). You can also reject Choice (A) because it explains why black fur would not be an advantage in a cold environment."
+        ]
+    ],
+    ["A",
+        [
+            "<b>5. Explanation:</b> Placing the seedlings in different locations within the greenhouse affects the amount of direct sunlight the plants receive. Sunlight is a form of radiant energy."
+        ]
+    ]
 ];
 const reliabilityPracOneAnswers = [
     ['D', 
@@ -281,13 +380,35 @@ const variablePracTwoAnswers = [
         [
             "<b>5. Explanation:</b> An independent variable is a variable that is changed or manipulated in a scientific experiment in order to test the effects on the dependent variable. In this case the researchers could control the duration of exposure and the type of bacteria. The dependent variable responds to the independent variable. It is called dependent because it 'depends' on the independent variable. <br><br>  In this case the bacteria colony size depends on the duration of exposure and the type of bacteria. In this study there are two independent variables and there is one dependent variable. The independent variables are the duration of exposure to Vancomycin and the type of bacteria used. The dependent variable is the bacterial colony size, which depends on length of exposure to the antibiotic."
         ]
-    ],
+    ]
 ];
-
 const variablePracThreeAnswers = [
-
+    ["D",
+        [
+            "<b>1. Explanation:</b>  In the fertilizer growth experiment, the type of fertilizer used functions as the independent variable. In the fertilizer growth experiment, the growth rate of the plants functions as the dependent variable. An independent variable is a variable that is changed, controlled, or manipulated by the researcher in an experiment to create two or more comparison groups. A dependent variable is a variable that changes in response to the independent variable(s) in an experiment. In this experiment, the researcher has set up the experiment to see how the plant growth rate (dependent variable) will change in response to the type of fertilizer used (independent variable)."
+        ]
+    ],
+    ["A",
+        [
+            "<b>2. Explanation:</b> The amount of fertilizer is the condition that is changed between experimental groups. It is what the dependent variable relies on."
+        ]
+    ],
+    ["A",
+        [
+            "<b>3. Explanation:</b> An independent variable is a variable that is changed or controlled in a scientific experiment, in order to test the effects on the dependent variable. In this case the student is controlling the honey to test the effect on sneezing. It is called dependent because it \"depends\" on the independent variable."
+        ]
+    ],
+    ["B",
+        [
+            "<b>4. Explanation:</b> The control group is the one that is not exposed to the variable that is being tested. Since the number of paper clips added represents the dependent variable (the variable being tested), paper airplane without any clips is the control group."
+        ]
+    ],
+    ["B",
+        [
+            "<b>5. Explanation:</b> An independent variable is a variable that is changed or controlled in a scientific experiment, in order to test the effects on the dependent variable. It is called dependent because it \"depends\" on the independent variable.  In this case Smithers control the presence or absence of special juice. Depending on the presence or absence of it, Smithers measure the productivity of workers by counting how many stacks of paper they made."
+        ]
+    ]
 ];
-
 const numberAndGraphPracOneAnswers = [
     ["B",
         [
@@ -312,7 +433,7 @@ const numberAndGraphPracOneAnswers = [
     ]
 ];
 
-const numberAndGraphPrachTwoAnswers = [
+const numberAndGraphPracTwoAnswers = [
     ["C",
         [
             "<b>1. Explanation:</b> Look at the solubility curve for sugar. Find the point on the sugar curve that corresponds to 50’C. At 50°C, approximately 250 g of sugar can dissolve in 100 mL of water."
@@ -594,13 +715,19 @@ function pageCheck(){
     } else if (window.location.href.includes('claims-and-evidence-3')){
         correctAnsArr = claimsEvidencePracThreeAnswers;
 
-
-
     } else if (window.location.href.includes('conclusion-1')){
         correctAnsArr = conclusionPracOneAnswers;
+    } else if (window.location.href.includes('conclusion-2')){
+        correctAnsArr = hypothesesPracTwoAnswers;
+    } else if (window.location.href.includes('conclusion-3')){
+        correctAnsArr = hypothesesPracThreeAnswers;
+
     } else if (window.location.href.includes('hypotheses-1')){
         correctAnsArr = hypothesesPracOneAnswers;
-
+    } else if (window.location.href.includes('hypotheses-2')){
+        correctAnsArr = hypothesesPracTwoAnswers;
+    } else if (window.location.href.includes('hypotheses-3')){
+        correctAnsArr = hypothesesPracThreeAnswers;
 
     } else if (window.location.href.includes('reliability-of-experiments-1')){
         correctAnsArr = reliabilityPracOneAnswers;
@@ -613,13 +740,16 @@ function pageCheck(){
         correctAnsArr = variablePracOneAnswers;
     } else if (window.location.href.includes('variable-and-group-2')){
         correctAnsArr = variablePracTwoAnswers;
-
+    } else if (window.location.href.includes('variable-and-group-3')) {
+        correctAnsArr = variablePracThreeAnswers;  
+        
     } else if (window.location.href.includes('graph-practice-1')) {
         correctAnsArr = numberAndGraphPracOneAnswers;
     } else if (window.location.href.includes('graph-practice-2')) {
-        correctAnsArr = numberAndGraphPrachTwoAnswers;
+        correctAnsArr = numberAndGraphPracTwoAnswers;
     } else if (window.location.href.includes('graph-practice-3')) {
         correctAnsArr = numberAndGraphPracThreeAnswers;
+        
     } else if (window.location.href.includes('calculation-practice-1')) {
         correctAnsArr = calculationPracOneAnswers;
     } else if (window.location.href.includes('calculation-practice-2')) {
